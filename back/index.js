@@ -15,7 +15,7 @@ app.listen(PORT,()=>{
 module.exports = app;
 
 app.get('/', (req, res) => {
-    res.send("Hello from le front, Mohamed Iraqi")
+    res.send("Hello from le front, Sami CHAHIR")
 })
 app.get('/login', (req, res) => {
     res.send("Bienvenue sur la route login")
